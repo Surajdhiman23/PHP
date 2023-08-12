@@ -1,0 +1,95 @@
+body {
+    background: #87CEEB; /* New background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 500px;
+    border: 2px solid #66CDAA; /* New border color */
+    padding: 30px;
+    background: #F0F8FF; /* New background color */
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Box shadow added */
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+label {
+    color: #555; /* New label color */
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+button {
+    background: #333; /* New button background color */
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.message {
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.error {
+    background: #FFC0CB; /* New error background color */
+    color: #B22222; /* New error text color */
+}
+
+.success {
+    background: #98FB98; /* New success background color */
+    color: #228B22; /* New success text color */
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.ca:hover {
+    text-decoration: underline;
+}
